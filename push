@@ -1,0 +1,6 @@
+find staging/ -name '*.DS_Store' -type f -delete
+VER=$(cat ver)
+DEB=$(cat name).$VER.deb
+dpkg-deb -Zgzip -b staging/ $DEB
+scp -P2222 $DEB root@127.0.0.1:/var/mobile/Downloads/$DEB.deb
+ssh -p2222 root@127.0.0.1 "killall Cydia; dpkg -i /var/mobile/Downloads/$DEB.deb; killall MobileSMS; sleep 0.1; sblaunch com.apple.MobileSMS"

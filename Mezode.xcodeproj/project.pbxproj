@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454947CB1B896B5100554D85 /* Mezode.m in Sources */ = {isa = PBXBuildFile; fileRef = 454947CA1B896B5100554D85 /* Mezode.m */; };
+		454947E61B896C6C00554D85 /* ZKSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 454947E41B896C6C00554D85 /* ZKSwizzle.h */; };
+		454947E71B896C6C00554D85 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 454947E51B896C6C00554D85 /* ZKSwizzle.m */; };
+		454947E91B896C9600554D85 /* fakelogos.h in Headers */ = {isa = PBXBuildFile; fileRef = 454947E81B896C9600554D85 /* fakelogos.h */; };
+		454947EB1B8973C700554D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454947EA1B8973C600554D85 /* UIKit.framework */; };
+		45C3E1211B8A320F001DE87A /* ChatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C3E1201B8A320F001DE87A /* ChatKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		454947C51B896B5100554D85 /* Mezode.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Mezode.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		454947CA1B896B5100554D85 /* Mezode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mezode.m; sourceTree = "<group>"; };
+		454947DE1B896BB700554D85 /* name */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = name; sourceTree = "<group>"; };
+		454947DF1B896BB700554D85 /* push */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = push; sourceTree = "<group>"; };
+		454947E01B896BB700554D85 /* staging */ = {isa = PBXFileReference; lastKnownFileType = folder; path = staging; sourceTree = "<group>"; };
+		454947E11B896BB700554D85 /* ver */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ver; sourceTree = "<group>"; };
+		454947E41B896C6C00554D85 /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		454947E51B896C6C00554D85 /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		454947E81B896C9600554D85 /* fakelogos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fakelogos.h; sourceTree = "<group>"; };
+		454947EA1B8973C600554D85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45C3E1201B8A320F001DE87A /* ChatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/ChatKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454947C21B896B5100554D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C3E1211B8A320F001DE87A /* ChatKit.framework in Frameworks */,
+				454947EB1B8973C700554D85 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454947BC1B896B5100554D85 = {
+			isa = PBXGroup;
+			children = (
+				45C3E1201B8A320F001DE87A /* ChatKit.framework */,
+				454947EA1B8973C600554D85 /* UIKit.framework */,
+				454947E31B896C6C00554D85 /* ZKSwizzle */,
+				454947DE1B896BB700554D85 /* name */,
+				454947DF1B896BB700554D85 /* push */,
+				454947E01B896BB700554D85 /* staging */,
+				454947E11B896BB700554D85 /* ver */,
+				454947C71B896B5100554D85 /* Mezode */,
+				454947C61B896B5100554D85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		454947C61B896B5100554D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454947C51B896B5100554D85 /* Mezode.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454947C71B896B5100554D85 /* Mezode */ = {
+			isa = PBXGroup;
+			children = (
+				454947E81B896C9600554D85 /* fakelogos.h */,
+				454947CA1B896B5100554D85 /* Mezode.m */,
+			);
+			path = Mezode;
+			sourceTree = "<group>";
+		};
+		454947E31B896C6C00554D85 /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				454947E41B896C6C00554D85 /* ZKSwizzle.h */,
+				454947E51B896C6C00554D85 /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		454947C31B896B5100554D85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454947E91B896C9600554D85 /* fakelogos.h in Headers */,
+				454947E61B896C6C00554D85 /* ZKSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		454947C41B896B5100554D85 /* Mezode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454947D81B896B5100554D85 /* Build configuration list for PBXNativeTarget "Mezode" */;
+			buildPhases = (
+				454947C11B896B5100554D85 /* Sources */,
+				454947C21B896B5100554D85 /* Frameworks */,
+				454947C31B896B5100554D85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mezode;
+			productName = Mezode;
+			productReference = 454947C51B896B5100554D85 /* Mezode.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454947BD1B896B5100554D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mustafa Gezen";
+				TargetAttributes = {
+					454947C41B896B5100554D85 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 454947C01B896B5100554D85 /* Build configuration list for PBXProject "Mezode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 454947BC1B896B5100554D85;
+			productRefGroup = 454947C61B896B5100554D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454947C41B896B5100554D85 /* Mezode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454947C11B896B5100554D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454947CB1B896B5100554D85 /* Mezode.m in Sources */,
+				454947E71B896C6C00554D85 /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		454947D61B896B5100554D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		454947D71B896B5100554D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		454947D91B896B5100554D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Muharrem Gezen (FGTUP58EL5)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/PrivateFrameworks";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		454947DA1B896B5100554D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Muharrem Gezen (FGTUP58EL5)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/staging";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/PrivateFrameworks";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454947C01B896B5100554D85 /* Build configuration list for PBXProject "Mezode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454947D61B896B5100554D85 /* Debug */,
+				454947D71B896B5100554D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454947D81B896B5100554D85 /* Build configuration list for PBXNativeTarget "Mezode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454947D91B896B5100554D85 /* Debug */,
+				454947DA1B896B5100554D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 454947BD1B896B5100554D85 /* Project object */;
+}

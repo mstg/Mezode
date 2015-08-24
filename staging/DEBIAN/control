@@ -1,0 +1,9 @@
+Package: xyz.mstg.mezode
+Name: Mezode
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Cool Messages customization
+Maintainer: Mustafa Gezen (mstg) <mustiigezen@gmail.com>
+Author: Mustafa Gezen (mstg) <mustiigezen@gmail.com>
+Depends: mobilesubstrate, firmware (>= 8.0)
+Section: Tweaks
