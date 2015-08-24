@@ -112,8 +112,6 @@ hook(CKColoredBalloonView)
 
 -(void)setFrame:(CGRect)arg1 {
 	_orig(void, CGRectMake(arg1.origin.x == 14.0 ? -8 : arg1.origin.x+25, arg1.origin.y, arg1.size.width, arg1.size.height));
-	NSLog(@"[Mezode] %f", arg1.origin.x);
-	//_orig(void, arg1);
 }
 endhook
 
